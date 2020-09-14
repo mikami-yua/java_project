@@ -10,4 +10,5 @@ package list.singlelink;
 public class Node {
     Object element;//存储的数据
     Node next;//下一个节点的内存地址
+    //测试
 }
