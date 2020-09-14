@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4df13c1b-a772-4dda-95f1-f079e94041b3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="217" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="part11" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1d7QtX1xrUMfUjif1Ktj5yzd5PF" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.ExceptionTest14">
+    <configuration name="ExceptionTest09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ExceptionTest09" />
+      <module name="part13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionTest10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ExceptionTest10" />
+      <module name="part13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionTest11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ExceptionTest11" />
+      <module name="part13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionTest14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ExceptionTest14" />
+      <module name="part13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestException13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.TestException13" />
+      <module name="part13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ExceptionTest09" />
+      <item itemvalue="Application.ExceptionTest10" />
+      <item itemvalue="Application.ExceptionTest11" />
+      <item itemvalue="Application.TestException13" />
+      <item itemvalue="Application.ExceptionTest14" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExceptionTest14" />
+        <item itemvalue="Application.TestException13" />
+        <item itemvalue="Application.ExceptionTest11" />
+        <item itemvalue="Application.ExceptionTest10" />
+        <item itemvalue="Application.ExceptionTest09" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4df13c1b-a772-4dda-95f1-f079e94041b3" name="Default Changelist" comment="" />
+      <created>1591773866998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591773866998</updated>
+      <workItem from="1591773871575" duration="5979000" />
+      <workItem from="1592265956940" duration="722000" />
+      <workItem from="1592266727254" duration="8941000" />
+      <workItem from="1592285555848" duration="11860000" />
+      <workItem from="1592352306744" duration="11125000" />
+      <workItem from="1592374393677" duration="26000" />
+      <workItem from="1592374479340" duration="6349000" />
+      <workItem from="1592873960696" duration="4927000" />
+      <workItem from="1592961502103" duration="2514000" />
+      <workItem from="1596187440607" duration="530000" />
+      <workItem from="1599826357465" duration="3471000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="75" key="#Project_Structure" timestamp="1591773890175">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="367" y="75" key="#Project_Structure/0.0.1549.831@0.0.1549.831" timestamp="1591773890175" />
+    <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591778126806">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="230" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1549.831@0.0.1549.831" timestamp="1591778126806" />
+    <state x="580" y="92" key="#com.intellij.ide.util.MemberChooser" timestamp="1599829512481">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="580" y="92" key="#com.intellij.ide.util.MemberChooser/0.0.1549.831@0.0.1549.831" timestamp="1599829512481" />
+    <state x="400" y="65" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1592289536999">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="400" y="65" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1549.831@0.0.1549.831" timestamp="1592289536999" />
+    <state x="906" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599827753497">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="906" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1549.831@0.0.1549.831" timestamp="1599827753497" />
+    <state x="989" y="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599827898103">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="989" y="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1549.831@0.0.1549.831" timestamp="1599827898103" />
+    <state width="729" height="190" key="GridCell.Tab.0.bottom" timestamp="1599829835515">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="729" height="190" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1599829835515" />
+    <state width="729" height="190" key="GridCell.Tab.0.center" timestamp="1599829835515">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="729" height="190" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1599829835515" />
+    <state width="729" height="190" key="GridCell.Tab.0.left" timestamp="1599829835515">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="729" height="190" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1599829835515" />
+    <state width="729" height="190" key="GridCell.Tab.0.right" timestamp="1599829835515">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="729" height="190" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1599829835515" />
+    <state width="1506" height="242" key="GridCell.Tab.1.bottom" timestamp="1592878901686">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="242" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1592878901686" />
+    <state width="1506" height="242" key="GridCell.Tab.1.center" timestamp="1592878901686">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="242" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1592878901686" />
+    <state width="1506" height="242" key="GridCell.Tab.1.left" timestamp="1592878901686">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="242" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1592878901686" />
+    <state width="1506" height="242" key="GridCell.Tab.1.right" timestamp="1592878901686">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state width="1506" height="242" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1592878901686" />
+    <state x="284" y="58" key="SettingsEditor" timestamp="1592374424387">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="284" y="58" key="SettingsEditor/0.0.1549.831@0.0.1549.831" timestamp="1592374424387" />
+    <state x="179" y="0" key="new project wizard" timestamp="1592375497312">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="179" y="0" key="new project wizard/0.0.1549.831@0.0.1549.831" timestamp="1592375497312" />
+    <state x="437" y="152" width="672" height="678" key="search.everywhere.popup" timestamp="1592877539676">
+      <screen x="0" y="0" width="1549" height="831" />
+    </state>
+    <state x="437" y="152" width="672" height="678" key="search.everywhere.popup/0.0.1549.831@0.0.1549.831" timestamp="1592877539676" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/part11$IntegerTest01.ic" NAME="IntegerTest01 Coverage Results" MODIFIED="1592353585106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.javase.integer.*</FILTER>
+    </SUITE>
+  </component>
+</project>

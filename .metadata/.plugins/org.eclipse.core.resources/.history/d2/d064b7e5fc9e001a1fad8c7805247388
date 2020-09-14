@@ -1,0 +1,21 @@
+package day11;
+
+public class Chinese {
+	
+	String id;
+	String name;
+	//国籍一定是中国，和上面的实例变量不同
+	String country;
+	
+	public Chinese() {
+		
+	}
+	public Chinese(String id, String name, String country) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.country = country;
+	}
+		
+		
+}

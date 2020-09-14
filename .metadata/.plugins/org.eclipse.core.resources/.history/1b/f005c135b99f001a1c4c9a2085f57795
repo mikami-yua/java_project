@@ -1,0 +1,11 @@
+package Test1;
+/**
+ * ³èÎïÃ¨
+ *
+ */
+public class Cat {
+	//Ğ¡Ã¨°®³ÔÓã
+	public void eat(){
+		System.out.println("cat is eating fish");
+	}
+}

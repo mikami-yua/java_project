@@ -1,0 +1,13 @@
+package Test1;
+/**
+ * 主人类
+ */
+public class Master {
+	//喂养
+	public void feed(Cat c){
+		c.eat();
+	}
+	public void feed(Dog d){
+		d.eat();
+	}
+}

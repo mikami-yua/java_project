@@ -1,0 +1,7 @@
+package Test5;
+
+import Test3.User;
+
+public class Driver extends User {
+
+}

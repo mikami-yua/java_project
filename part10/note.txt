@@ -1,0 +1,20 @@
+1.JDK类库中的根类：Object
+	1.1 任何一个类，默认继承Object
+
+	1.2 Object中常用的方法
+		去哪找：源代码中（麻烦）/查阅类库的帮助文档
+
+		API：应用程序编程接口
+			整个JDK类库就是一个Javase的API
+		
+		目前只需要知道这几个方法：
+			protected Object clone()    //对象克隆
+			boolean equals(Object obj)  //判断两个对象是否相等
+			protected void finalize()   //垃圾回收器负责调用的方法
+			int hashCode()              //获得对象hash 
+			String toString()           //将对象转换成字符串 
+
+		protected void finalize()
+			protected修饰，Object类中
+
+		p63

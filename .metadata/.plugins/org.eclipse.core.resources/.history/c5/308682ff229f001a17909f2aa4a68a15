@@ -1,0 +1,32 @@
+package day11;
+/**
+ * 多态
+ * 		-animal cat brid
+ * 			cat和brid之间没有继承关系
+ * 		
+ * 		-关于多态中的几个概念
+ * 			向上转型：upcasting  
+ * 				子类型转换为父类型，又称为自动类型转换
+ * 			向下转型：downcasting
+ *				父类型转换为子类型，又称为强制类型转换
+ *			无论是向上转型还是向下转型，两种类型之间必须要有继承关系
+ */
+public class Test {
+
+	public static void main(String[] args) {
+		Animal a1=new Animal();
+		a1.move();
+		Cat c1=new Cat();
+		c1.move();
+		c1.catchMouse();
+		Brid b1=new Brid();
+		b1.move();
+		
+		//使用多态
+		//new cat()创建的对象是cat a2这个引用数据类型是Animal，可见进行了类型转换
+		//子类转换为父类，称为向上转型-----upcasting
+		Animal a2=new Cat();
+		a2.move();
+	}
+
+}
