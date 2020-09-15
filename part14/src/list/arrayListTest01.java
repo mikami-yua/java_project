@@ -12,6 +12,7 @@ import java.util.List;
  * 4.arraylist的扩容，每次扩容50%，尽可能少的扩容，建议先与估计
  * 5.数组优点，检索效率高
  * 6.数组缺点：增删元素效率低（数组末尾添加效率高）
+ * 7.arraylist集合是非线程安全的
  */
 public class arrayListTest01 {
     public static void main(String[] args) {
