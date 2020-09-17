@@ -2,6 +2,7 @@ package map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 /**
  *hashmap集合
@@ -57,9 +58,37 @@ import java.util.Map;
  *      分布均匀：100个node，10个单向链表，每个单向链表10个值
  *      每个hash值都不同，底层就是一个一维数组，也是散列分布不均匀
  *
+ * 【重点】：放在hashmap集合key部分的元素，以及放在hashset集合中的元素。需要同时重写hashcode和equals
+ *
+ *  10.hashmap的默认初始化容量是16个node，默认加载因子是0.75
+ *      当hashmap底层数组的容量达到75%的时候，数组开始扩容
+ *      hashhmap初始化容量必须是2的倍数（官方推荐）————————为了达到散列均匀，提高hashmap集合的存取效率
+ *
+ *  11.JDK8中的新特性：当hash表的单链表长度超过8时，会将单链表转换为红黑树的结构，当红黑树的节点数小于6时，会把红黑树重新变为单向链表
+ *
+ *
  */
 public class HashMapTest01 {
     public static void main(String[] args) {
         Map<Integer,String> map=new HashMap<>();
+        //测试hashmap k部分的元素的特点
+        //Integer是key，hashcode和equals都重写了
+        map.put(11111,"zhangsan");
+        map.put(666,"lisi");
+        map.put(777,"mingkai");
+        map.put(767,"migkai");
+        map.put(222,"king");
+        map.put(222,"panda");//key重复 value自动覆盖
+        System.out.println(map.size());//5
+
+        //遍历
+        Set<Map.Entry<Integer,String>> set=map.entrySet();
+        for(Map.Entry<Integer,String> s:set){
+            /*
+            hashmap k部分无序不可重复
+             */
+            System.out.println(s.getKey()+"------>"+s.getValue());
+        }
+
     }
 }
