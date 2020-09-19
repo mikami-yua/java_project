@@ -6,8 +6,8 @@
     1.5 主要的集合类
         ArrayList
         LinkLIst
-        HashSet
+        HashSet（元素需要重写hashcode和equals）
         TreeSet
-        HashMap
+        HashMap（k部分元素需要重写hashcode和equals）
         Properties
         TreeSet
