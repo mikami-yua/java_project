@@ -1,0 +1,81 @@
+IO流
+    I：input
+    O：output
+    IO完成对硬盘的读和写
+
+分类：
+    1.以流的方向分类（内存做参照物）
+        往内存叫输入（读）
+        从内存中出叫输出（写）
+
+    2.按照读取数据方式不同分类
+        有的流按照字节的方式读取数据，一次读取一个字节byte，等于一次读取8个2进制位------这种流是万能的什么文件都能读取
+            例：文件：a中国boad
+                            第一次读取：a //a占用一个字节（windows操作系统中占一个字节，java中占2个字节，char底层是两个字节）
+                            第二次读取：'中'字符的一半
+                            第三次读取：'中'字符的一半
+        有的流按照字符读取，每次读取一个字符，这种流是为了读取文本文件（txt）的，不能读取图片视频等。
+            例：文件：a中国boad
+                第一次读取：a //a占用一个字节
+                第二次读取：中//中占用2个字节
+            字符流能自动识别字符
+
+java中的IO流已经写好了，主要掌握java中已经有哪些流已经提供了，每个流的特点是什么，每个流对象上的常用方法有哪些。
+    Java中所有的流都在java.io下
+
+    主要学习：
+        怎么new流对象
+        调用流对象的那个方法是读，那个方法是写
+
+java IO流的四大家族：
+
+    四大家族的首领------都是抽象类
+    java.io.InputStream   字节输入流
+    java.io.OutPutStream  字节输出流
+    java.io.Reader        字符输入流
+    java.io.Writer        字符输出流
+
+    只要类名以Stream结尾都是字节流，以Reader/Writer结尾都是字符流
+
+    所有的流都实现了java.io.Closeable接口，都是可关闭的，都有close（）方法
+    用完流一定要关闭
+
+    所有的输出流都是可刷新的，都实现了java.io.Flushable,都有flush（）方法
+    输出流完成输出之后一定要flush刷新一下。刷新表示将管道中剩余未输出的数据强行输出完（清空管道）。
+    刷新的作用就是清空管道
+    【注意】：如果没有flush可能会丢失数据
+
+java.io包下需要掌握的流有16个：
+
+    文件专属
+        java.io.FileInputStream
+        java.io.FileOutputStream
+        java.io.FileReader
+        java.io.FileWriter
+
+    转换流（字节流转换为字符流）
+        java.io.InputStreamReader
+        java.io.OutputStreamWriter
+
+    缓冲流
+        java.io.BufferedReader
+        java.io.BufferedWriter
+        java.io.BufferedInputStream
+        java.io.BufferedOutputStream
+
+    数据流
+        java.io.DataInputStream
+        java.io.DataOutputStream
+
+    标准输出流
+        java.io.PrintWriter
+        java.io.PrintStream
+
+    对象专属流
+        java.io.ObjectInputStream
+        java.io.ObjectOutputStream
+
+
+
+
+
