@@ -26,6 +26,10 @@ public class FileInputStreamTest05 {
             System.out.println(new String(bytes));//abcdefhaskidhiasdhksa
             //不适合大文件，byte数组不能太大
 
+            //skip跳过几个字节不读取
+            fis.skip(3);//跳过3个字节不读取
+            System.out.println(fis.read());
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
