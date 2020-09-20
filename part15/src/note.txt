@@ -48,8 +48,8 @@ java IO流的四大家族：
 java.io包下需要掌握的流有16个：
 
     文件专属
-        java.io.FileInputStream
-        java.io.FileOutputStream
+        java.io.FileInputStream(掌握)
+        java.io.FileOutputStream(掌握)
         java.io.FileReader
         java.io.FileWriter
 
@@ -69,11 +69,11 @@ java.io包下需要掌握的流有16个：
 
     标准输出流
         java.io.PrintWriter
-        java.io.PrintStream
+        java.io.PrintStream(掌握)
 
     对象专属流
-        java.io.ObjectInputStream
-        java.io.ObjectOutputStream
+        java.io.ObjectInputStream(掌握)
+        java.io.ObjectOutputStream(掌握)
 
 
 
