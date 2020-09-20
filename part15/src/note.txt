@@ -75,7 +75,22 @@ java.io包下需要掌握的流有16个：
         java.io.ObjectInputStream(掌握)
         java.io.ObjectOutputStream(掌握)
 
+java.io.File类
+    file类的父类就是object与流没有关系
+    File：文件和目录路径名的抽象表示形式
 
+对象流
+    java.io.ObjectInputStream(掌握)
+    java.io.ObjectOutputStream(掌握)
+
+    对象的序列化和反序列化
+        序列化：把Java对象放到硬盘文件中（拆分对象）--------Serialize
+            把对象切块编号，通过管道传送到文件
+            将java对象状态保存下来的过程
+            ObjectOutputStream
+
+        反序列化：把java对象从硬盘文件恢复到内存中（组装对象）---DeSerialize
+            ObjectInputStream
 
 
 
