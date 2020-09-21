@@ -92,5 +92,9 @@ java.io.File类
         反序列化：把java对象从硬盘文件恢复到内存中（组装对象）---DeSerialize
             ObjectInputStream
 
+IO和Properties联合使用
+    IO：文件的读写
+    Properties：一个map集合，key和value都是String类型
+
 
 

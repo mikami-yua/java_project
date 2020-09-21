@@ -1,0 +1,5 @@
+username=admin
+#password=123
+password=12345
+#属性配置文件以#注释
+#key重复的话会自动覆盖
