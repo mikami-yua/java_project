@@ -157,3 +157,69 @@
         Vector是线程安全的
         HashMap HashSet是非线程安全的
         HashTable是线程安全的
+
+    【总结】synchronized有两种写法
+        1.同步代码块
+            synchronized (this){
+                        double before=this.getBalance();
+                        //取款后的余额
+                        double after=before-money;
+                        //在这里模拟网络延迟100%出问题
+                        try {
+                            Thread.sleep(1000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        this.setBalance(after);
+            }
+            灵活
+        2.在实例方法上使用synchronized
+            表示共享对象一定是this，并且同步代码块是整个方法体
+        3.在静态方法上使用synchronized
+            表示找类锁，类锁只有1把，就算创建了100个对象，类锁也只有1把
+                对象锁，一个对象一把锁，100个对象100把锁
+
+    10.死锁
+        程序不出现异常也不出现错误，一直僵持在哪里【最难调的错误】
+
+    11.开发中怎么解决线程安全问题
+        不是一上来就synchronized，这会使程序的执行效率降低。用户吞吐量降低，用户体验差。在不得已的情况下，再使用线程同步机制
+
+        方案1：尽量使用局部变量代替实例变量和静态变量
+
+        方案2：如果必须是实例变量，可以考虑创建多个对象，这样实例变量的内存就不共享了。
+
+        方案3：不能使用局部变量，对象也不能创建多个，只能选择synchronized线程同步机制
+
+    12.
+        守护线程
+            又称为后台线程
+            java中线程分两类
+                用户线程
+                守护线程
+            特点：一般是个死循环，所有用户线程结束，守护线程自动结束
+
+            用在的地方：
+                垃圾回收器
+                固定时间上次日志（将定时器设置为守护线程）
+
+        定时器
+            作用：间隔特定的时间执行特定的程序
+            ps：每天的数据备份操作
+            1.使用sleep定时
+            2.java.util.Timer(很少用了)
+            3.目前使用较多的使spring框架中提供的springTask框架
+
+
+        实现线程的第三种方式：FutureTask方式，实现Callable接口（JDK8新特性）
+            这种方式实现的线程可以获取线程的返回值-------拿到线程的执行结果
+            之前的两种方式没有返回值，run方法是void的
+
+        Object类种的wait和notify方法（生产者和消费者模式）
+            1.wait和notify方法不是线程对象的方法，java中任何一个对象都有这个方法。这两个方法是Object类中自带的
+            2.wait作用
+                Object 0=new Object（）；
+                o.wait();
+                表示：让正在o对象上活动的线程进入等待状态，直至被唤醒。（调用o.notify()）
+            2.notify作用
+                调用o.notify()，让o上正在等待的线程被唤醒
