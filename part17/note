@@ -1,0 +1,15 @@
+反射机制
+    作用：可以操作字节码文件（.class）
+
+    在java.lang.reflect.*；包下
+
+    相关的类
+        java.lang.class                 字节码文件
+        java.lang.reflect.Method        字节码中的方法
+        java.lang.reflect.Constructor   构造方法字节码
+        java.lang.reflect.Field         属性字节码
+
+
+
+
+
