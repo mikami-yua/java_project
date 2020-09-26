@@ -1,0 +1,59 @@
+注解
+
+1.注解annotation
+    作用：在程序当中等同于一种标记。如果有这个标记怎么办，没有这个标记怎么办
+
+2.是一种引用数据类型，编译之后也是生成xxx.class文件
+
+3.自定义注解，语法格式
+     [修饰词列表] @interface 注解类型名{
+
+     }
+
+4.注解怎么使用：
+    1.使用时的语法格式
+        @注解类型名
+
+    2.注解可以出现在类上，属性上，方法上，变量上等。。。可以出现在几乎任何地方
+        注解还可以出现在注解类型上
+
+5.JDK内置的注解
+
+    java.lang
+        Deprecated 注释@Deprecated的程序元素是程序员不鼓励使用的程序元素，
+            通常是因为它是危险的，或者因为存在更好的替代方法。 编译器在不被弃用的代码中使用或覆盖不推荐使用的程序元素时发出警告。(掌握)
+
+        Override 表示方法声明旨在覆盖超类型中的方法声明。（掌握）
+
+        SuppressWarnings 表示在注释元素（以及注释元素中包含的所有程序元素）中应该抑制命名的编译器警告。
+
+    元注解：标记注解的注解
+        Target
+            用来指定被标注的注解可以出现在哪些位置上
+            @Target（ElementType.METYHOD）：被标注的注解只能出现在方法上
+
+        Retention
+            用来标注最终保存在哪里
+            @Retention（RetentionPolicy.SOURCE）:表示该注解只保留在java源文件中
+            @Retention（RetentionPolicy.CLASS）:表示该注解只保留在class文件中
+            @Retention（RetentionPolicy.RUNTIME）:表示该注解只保留在class文件中，并且可以被反射机制读取
+
+6.注解中的属性可以有哪些类型：
+    byte
+    short
+    boolean
+    char
+    int
+    String
+        以及上述类型的数组
+
+    枚举
+    枚举数组
+    Class
+    Class[]
+
+7.ps annotation6
+    假设有需求叫做@Id
+    这个注解只能出现在类上面，当这个类有这个注解时，要求这个类中必须有int类型的id属性，没有这个属性就报错
+
+
